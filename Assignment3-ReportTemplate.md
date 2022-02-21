@@ -42,8 +42,41 @@ For this coverage metric data we used elcEmma plugin for Eclipse. We tried to us
 The pros of elcEmma is its simplicity to install and implement into our project. Additionally, it offers multiple code coverage metrics to measure the quality of our test suite. The cons of elcEmma is that it is missing some coverage metrics such as condition coverage. The test coverages we chose allows us to measure how many lines, branches and method calls have been tested. We chose statement coverage because we cannot find faults if lines containing bugs are not executed. Additionally, we chose branch coverage so that we can execute all outcomes of a branch to ensure consistency. Finally, we chose method coverage because the tool we chose did not include condition coverage and this allows us to find faults during method calls. However, getting complete coverage of these metrics does not guarantee bug free software.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
+### calculateColumnTotal() from DataUtilities
+![cfg for datautils](https://user-images.githubusercontent.com/48339672/155029520-28777654-2969-4e30-9f2b-4f1a9177ee6f.PNG)
 
-Text…
+|DU Pairs|Tested|
+|-----|----------|
+|du(1, 2, data)|Yes|
+|du(1, 4, data)|Yes|
+|du(1, 8, data)|Yes|
+|du(1, 8, column)|Yes|
+|du(3, 10, total)|Yes|
+|du(3, 12, total)|No|
+|du(10, 12, total)|Yes|
+|du(4, 6, rowCount)|Yes|
+|du(5, 6, r)|Yes|
+|du(5, 8, r)|Yes|
+|du(11, 6, r)|Yes|
+|du(11, 8, r)|Yes|
+|du(8, 9, n)|Yes|
+|du(8, 10, n)|Yes|
+
+DU pair coverage = total DU pairs/ tested DU pairs * 100% = 13/14 *100% = 92.85%
+
+### intersects(double, double) from Range
+![cfg for range](https://user-images.githubusercontent.com/48339672/155030440-b40664e2-14ad-40db-9189-bc50719ec22d.PNG)
+
+|DU Pairs|Tested|
+|-|-|
+|du(1, 2, b0)|Yes|
+|du(1, 4, b0)|Yes|
+|du(1, 3, b1)|Yes|
+|du(1, 4, b1)|Yes|
+
+DU pair coverage = total DU pairs/ tested DU pairs * 100% = 4/4 *100% = 100%
+
+
 
 # 3 A detailed description of the testing strategy for the new unit test
 
