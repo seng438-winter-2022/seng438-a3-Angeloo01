@@ -80,7 +80,7 @@ DU pair coverage = total DU pairs/ tested DU pairs * 100% = 4/4 *100% = 100%
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+Our strategy for increasing the code coverage of our tests is to first create test cases based on the requirements on the Javadocs. We will then test the code coverage with these new test cases with elcEmma. Finally, we will alter these test cases if necessary to increase the code coverage of our test suite. We will target the methods that scored low code coverages measured above.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
