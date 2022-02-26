@@ -139,7 +139,7 @@ We will create 1 test case per person and the first to finish will do the a seco
 # 6 Pros and Cons of coverage tools used and Metrics you report
 |Test Tools|Pros|Cons|Metrics Reported|
 |-|-|-|-|
-|EclEmma|Pre-installed in Eclipse. Chose EclEmma for its simplicity to install and implement into our project. Easy to run and report line, instruction, branch and method coverage for the test suite| Does not report condition coverage for the methods in the test suite|Reported line coverage, branch coverage and method coverage as a substitute for condition coverage|
+|EclEmma|Pre-installed in Eclipse. Chose EclEmma for its simplicity to install and implement into our project. Easy to run and report line, instruction, branch and method coverage for the test suite| Does not report condition coverage for the methods in the test suite|Reported line coverage, branch coverage and method coverage as a substitute for condition coverage. Line coverage reports the number of lines the test cases cover for individual methods. Method coverage indicates whether the referenced method is called, and branch coverage ensures that all the branchs are covered|
 
 
 
