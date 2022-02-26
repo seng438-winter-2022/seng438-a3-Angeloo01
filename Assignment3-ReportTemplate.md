@@ -100,11 +100,11 @@ Text…
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+Requirements based test generation is built upon black box testing, where the source code of the program being tested is unknown, thus testing is done based on the requirements of the program. Coverage based test generation is a type of white box testing, where tests are built upon the knowledge of the source code. Coverage based testing allows the test engineers to know how much of the code the test covers, and if the test take care of all possibilities the program may face. In requirements based engineering, certain scenarios may be missed, as the engineers cant possibly know what parts of the code that was missed, however some code may be negligible to the requirements of the system thus less effort in testing. Coverage based testing allows for all parts of the code to be tested and to make sure all scenarios are taken care of, however more time is taken for large programs, as there is more code to parse through when testing.
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+Team work was divided equally, as all team members worked together one each part of the lab. Each member of the team went through the familirization of eclemma, and were responsiblle on checking the coverage of the tests. As a team we went through the coverage statistics and determined which methods and requirements we needed to further test. Once the plan was created, members worked on creating unit tests until coverage was improved as much as possible, with an equal workload distributed to each. Finally, the lab report writeup, was split equally between members. Throughout the lab, each member was responsible for keeping each other accountable, and make sure that the work was done in time.
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
