@@ -88,7 +88,19 @@ We will create 1 test case per person and the first to finish will do the a seco
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+### DataUtilities: equal(double[][], double[][])
+|Test Case|Purpose|improve line coverage|improve branch coverage|improve method coverage|
+|-|-|-|-|-|
+|firstNullArray|test with two null arrays|yes|yes|same|
+|secondNullArray|test with the first parameter as null|yes|yes|same|
+|secondNullArray2|test with the second parameter as null|yes|yes|same|
+|unequalSizedArrays|test with unequal sized arrays|yes|yes|same|
+
+### Range: intersects(double, double)
+|Test Case|Purpose|improve line coverage|improve branch coverage|improve method coverage|
+|-|-|-|-|-|
+|falseEqualBounds|test with unequal sized arrays|same|yes|same|
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
