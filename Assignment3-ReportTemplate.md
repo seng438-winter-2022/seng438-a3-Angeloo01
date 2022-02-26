@@ -104,7 +104,37 @@ We will create 1 test case per person and the first to finish will do the a seco
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+### Range
+![image](https://user-images.githubusercontent.com/48339672/155860263-afcaa8bf-1180-44b5-a277-99231c56ecd8.png)
+### Range: getCentralValue()
+![image](https://user-images.githubusercontent.com/48339672/155860277-5e407cf6-5c55-4316-a6e6-7de28f5088cc.png)
+### Range: getLength()
+![image](https://user-images.githubusercontent.com/48339672/155860287-682c97c6-3395-4e66-8ec9-3f14d35dd700.png)
+### Range: getLowerBound()
+![image](https://user-images.githubusercontent.com/48339672/155860297-0f43304f-2103-4b04-a025-70f105a466b6.png)
+### Range: getUpperBound()
+![image](https://user-images.githubusercontent.com/48339672/155860304-58ad329c-aeec-4837-a196-5f6ef2fff42d.png)
+### Range: intersects(double, double)
+![image](https://user-images.githubusercontent.com/48339672/155860319-f63bf23c-0e90-40cb-b919-f058897a41d7.png)
+### Range: intersects(Range)
+![image](https://user-images.githubusercontent.com/48339672/155860325-22abf4cf-718e-4779-8a63-00524bddb257.png)
+
+---
+
+### DataUtilities
+![image](https://user-images.githubusercontent.com/48339672/155860346-c3b97598-d95e-4095-9375-5c3dba36a95e.png)
+### DataUtilities: calculateColumnTotal(Values2D, int)
+![image](https://user-images.githubusercontent.com/48339672/155860379-568ace23-50ee-4c55-a8bb-40bf5f71ee20.png)
+### DataUtilities: calculateRowTotal(Values2D, int)
+![image](https://user-images.githubusercontent.com/48339672/155860384-f1f57a4a-56ee-4268-bff3-c247099aff6e.png)
+### DataUtilities: createNumberArray(double[])
+![image](https://user-images.githubusercontent.com/48339672/155860392-3410d58c-6b52-40ee-a691-5123e4911f85.png)
+### DataUtilities: createNumberArray2D(double[][])
+![image](https://user-images.githubusercontent.com/48339672/155860399-3b8f6e6e-451d-41ff-ade0-3d0476489ff2.png)
+### DataUtilities: getCumulativePercentages(KeyedValues)
+![image](https://user-images.githubusercontent.com/48339672/155860408-adc03a00-805d-4cd8-8cf7-b679daabe788.png)
+### DataUtilities: equal(double[][], double[][])
+![image](https://user-images.githubusercontent.com/48339672/155860404-91a74dcf-9336-48bd-afb5-641887b4a6a2.png)
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
