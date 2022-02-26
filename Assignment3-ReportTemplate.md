@@ -108,8 +108,11 @@ Text…
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+The main lessons that our group leaned throughout this assignment was the usage of coverage tools in white box testing. In this assignment, we were introduced with testing tools such as JUnit and EclEmma to further improve our understanding with white box testing. In 3.2 of the assignment handout, we were also familiarized with data flow coverage by calculating the DU-pair coverages. In this part, we learned how to use data flow graphs to analyze the methods calculateColumnTotal() from DataUtilities and intersects(double, double) from Range.
+
+A difficulty that we encountered was trying a different code coverage tool instead of EclEmma since EclEmma did not do condition coverage. Initially, we were trying to use CodeCover however it did not run on our version of Eclipse. 
+
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+This assignment was helpful in familiarizing ourselves with white box testing through the use of code coverage tools and unit tests. The handout was easy to follow allowing us to understand the usefulness of writing white box testings using EclEmma and JUnit
