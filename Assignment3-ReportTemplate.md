@@ -137,8 +137,12 @@ We will create 1 test case per person and the first to finish will do the a seco
 ![image](https://user-images.githubusercontent.com/48339672/155860404-91a74dcf-9336-48bd-afb5-641887b4a6a2.png)
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
+|Test Tools|Pros|Cons|Metrics Reported|
+|-|-|-|-|
+|EclEmma|Pre-installed in Eclipse. Chose EclEmma for its simplicity to install and implement into our project. Easy to run and report line, instruction, branch and method coverage for the test suite| Does not report condition coverage for the methods in the test suite|Reported line coverage, branch coverage and method coverage as a substitute for condition coverage|
 
-Text…
+
+
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
