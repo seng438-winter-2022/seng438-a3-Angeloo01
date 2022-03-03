@@ -99,14 +99,7 @@ public class RangeTest {
     	assertFalse(exampleRange.intersects(exampleRange2));
     }
   
-//    @Test
-//    public void lessThanSmallerLargerGreater() {
-//        //fail("Not yet implemented");
-//    	Range exampleRange2 = new Range(0, 4);
-//    	
-//    	assertTrue(exampleRange.intersects(exampleRange2));
-//    }
-//    
+//Added Test increases branch coverage
     @Test
     public void falseEqualBounds() {
         //fail("Not yet implemented");
@@ -114,13 +107,6 @@ public class RangeTest {
     	
     	assertFalse(exampleRange.intersects(exampleRange2));
     }
-//    @Test
-//    public void falseEqualBounds2() {
-//        //fail("Not yet implemented");
-//    	Range exampleRange2 = new Range(2, 3);
-//    	
-//    	assertFalse(exampleRange.intersects(exampleRange2));
-//    }
     
     @Test(expected = IllegalArgumentException.class)
     public void rangeCtorLowerGreaterThanUpper() throws Exception {
