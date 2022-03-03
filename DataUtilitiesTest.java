@@ -20,27 +20,6 @@ public class DataUtilitiesTest{
 		keyValues = mockingContext.mock(KeyedValues.class);
     }
 	
-//	 @Test
-//	 public void calculateColumnTotalForTwoValues() {
-//	     // setup
-//	     mockingContext.checking(new Expectations() {
-//	         {
-//	             one(values).getRowCount();
-//	             will(returnValue(2));
-//	             one(values).getValue(0, 0);
-//	             will(returnValue(7.5));
-//	             one(values).getValue(1, 0);
-//	             will(returnValue(2.5));
-//	         }
-//	     });
-//	     
-//	     // exercise	
-//	     double result = DataUtilities.calculateColumnTotal(values, 0);
-//	     // verify
-//	     //mockingContext.assertIsSatisfied();
-//	     assertEquals(10.0, result, .000000001d);
-//	     // tear-down: NONE in this test method
-//	 }
 	 
 	 @Test
 	 public void calculateColumnTotalForTwoRowsTwoColumns() {
@@ -165,7 +144,7 @@ public class DataUtilitiesTest{
 		 assertTrue("Error at equal() with 2 equal arrays", DataUtilities.equal(new double[][]{{1, 3}, {2, 4}}, new double[][]{{1.0, 3.0}, {2.0, 4.0}}));
 	 }
 
-////
+//// Added Tests Start from here
 	 @Test
 	 public void firstNullArray() {
 		 assertTrue("Error at equal() with 2 equal arrays", DataUtilities.equal(null, null));
@@ -184,7 +163,7 @@ public class DataUtilitiesTest{
 	 public void unequalSizedArrays() {
 		 assertFalse("Error at equal() with 2 equal arrays", DataUtilities.equal(new double[][]{{1, 3}, {2, 4},{3,5}}, new double[][]{{1.0, 3.0}, {2.0, 4.0}}));
 	 } 
-
+////Added Tests End Here
 	 
 	 
 	 @Test (expected = IllegalArgumentException.class)
